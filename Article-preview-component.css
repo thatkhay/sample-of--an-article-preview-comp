@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+
+}
+body{
+    display:grid;
+   align-items: center;
+   justify-content: center;
+grid-template-columns: repeat(2,25rem);
+background-color: hsl(217, 68%, 96%);
+height: 100vh;
+width: auto;
+}
+
+section{
+    height: auto;
+  
+}
+h1{
+font-weight: 400;
+color: hsl(216, 19%, 31%);
+font-size: 1.5rem;
+}
+
+.h1Div{
+    display: grid;
+   grid-template-rows: repeat(3, 1.6rem);
+margin-bottom: 1rem;
+width: 100%;
+}
+
+.pDiv{
+    display: grid;
+   grid-template-rows: repeat(3, 1.3rem);
+   margin-bottom: 1rem;
+  color: hsl(214, 17%, 51%); 
+  font-size: .9rem;
+  
+}
+.sec2{
+background-color: white;
+padding: 1.5rem;
+width: 27rem;
+padding-right: 0;
+height: 17rem;
+z-index: 1;
+margin-left: -10rem;
+margin-top: -4px;
+border-radius: 0 10px 10px 0;
+}
+
+span{
+    font-size: .9rem;
+    color: hsl(212, 23%, 69%);
+}
+
+.drawerImg{
+    height: 17rem;
+    border-radius: 10px 10px ;
+}
+
+.imageNameDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+
+.buttomDiv{
+    display: flex;
+    align-items: center;
+
+}
+
+.image{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+h3{
+    font-size: .9rem;
+    color: hsl(216, 19%, 31%);
+    
+}
+
+.iconButton{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%; 
+    border: 0; 
+    background-color:hsl(210, 46%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+}
+
+.iconButton:active{
+background-color: hsl(212, 15%, 57%);
+
+}
+
+.iconShare:active{
+filter: invert(36%);
+}
+
+.pAndIconDiv{
+    display: flex;
+    height: 6rem;
+    
+    
+flex-direction: column;}
+
+.divOfIcons{
+    height: 3.3rem;
+    width: 15rem;
+border-radius: 10px;
+margin-top: -4.9rem;
+margin-left: 14rem;
+background-color: hsl(217, 19%, 35%);
+display: none;
+justify-content: space-evenly;
+align-items: center;
+font-size: .7rem;
+letter-spacing: 3px;
+color: hsl(212, 23%, 69%);
+}
+
+
+.divOfIconsActive{
+    display: flex;
+    height: 3.3rem;
+    width: 15rem;
+border-radius: 10px;
+margin-top: -4.9rem;
+margin-left: 14rem;
+background-color: hsl(217, 19%, 35%);
+justify-content: space-evenly;
+align-items: center;
+font-size: .7rem;
+letter-spacing: 3px;
+color: hsl(212, 23%, 69%);
+}
+
+/* .triangleDiv{
+width: 0;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 50px solid hsl(217, 19%, 35%);
+transform: rotateX(0deg,360deg);
+} */
