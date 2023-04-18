@@ -99,6 +99,7 @@ h3{
     align-items: center;
     justify-content: center;
     margin-left: 10rem;
+    cursor: pointer;
 }
 
 .iconButton:active{
@@ -113,9 +114,8 @@ filter: invert(36%);
 .pAndIconDiv{
     display: flex;
     height: 6rem;
-    
-    
-flex-direction: column;}
+flex-direction: column;
+}
 
 .divOfIcons{
     height: 3.3rem;
@@ -130,6 +130,7 @@ align-items: center;
 font-size: .7rem;
 letter-spacing: 3px;
 color: hsl(212, 23%, 69%);
+cursor: pointer;
 }
 
 
@@ -146,6 +147,7 @@ align-items: center;
 font-size: .7rem;
 letter-spacing: 3px;
 color: hsl(212, 23%, 69%);
+
 }
 
 /* .triangleDiv{
